@@ -4,4 +4,10 @@ spring:
     #jdbc:mysql://localhost:3306/parayo?autoReconnect=true
     username: root
     password: 20th21th
+    data-username: root
+    data-password: 20th21th
     driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
