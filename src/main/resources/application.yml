@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/parayo?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=FALSE&serverTimezone=Asia/Seoul
+    #jdbc:mysql://localhost:3306/parayo?autoReconnect=true
+    username: root
+    password: 20th21th
+    driver-class-name: com.mysql.cj.jdbc.Driver
